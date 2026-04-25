@@ -8,4 +8,4 @@ def greet(name: str = "world") -> str:
     return message
 
 
-greeting = greet(23)
+greeting = greet("23")

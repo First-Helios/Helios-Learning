@@ -6,3 +6,6 @@ Run uv run ruff format . — watch whitespace and quotes normalize.
 Re-read the file. The os.path.join call should still trigger PTH118 because that's a suggestion (rewrite to Path), not an automated fix. Fix it by hand.
 
 https://mypy.readthedocs.io/en/stable/cheat_sheet_py3.html
+
+
+https://www.conventionalcommits.org/en/v1.0.0/

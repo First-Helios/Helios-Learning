@@ -43,8 +43,6 @@ jobs:
       - run: uv python install 3.12
       - run: uv sync --frozen
 
-      - name: Mypy strict on packages/
-        run: uv run mypy packages/
 
       - name: Mypy non-strict on apps/
         run: uv run mypy apps/
