@@ -8,4 +8,5 @@ def greet(name: str = "world") -> str:
     return message
 
 
-greeting = greet("23")
+if __name__ == "__main__":
+    greeting = greet("23")
