@@ -16,7 +16,7 @@ select = [
     "C4",   # better comprehensions
     "PTH",   # prefer pathlib over os.path
     "RET",   # return-statement hygiene
-    "TC",    # TYPE_CHECKING imports
+    "TCH",    # TYPE_CHECKING imports
     "ICN",   # standard import names (np, pd, etc.)
     "TID",   # tidy imports
     "FA",    # require `from __future__ import annotations` where useful
