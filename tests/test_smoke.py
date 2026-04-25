@@ -1,3 +1,2 @@
-def test_smoke() -> bool:
+def test_smoke() -> None:
     assert True
-    return True
