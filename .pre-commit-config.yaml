@@ -19,18 +19,17 @@ repos:
 
   # Ruff — lint + format
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.7.4
+    rev: v0.15.12
     hooks:
       - id: ruff
         args: ["--fix"]
       - id: ruff-format
 
-  # mypy — strict on packages/, lighter on apps/
+  # mypy — type-check all Python source files
   - repo: https://github.com/pre-commit/mirrors-mypy
     rev: v1.13.0
     hooks:
       - id: mypy
-        files: ^packages/
         additional_dependencies:
           - sqlalchemy>=2.0
           - pydantic>=2.0
